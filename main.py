@@ -9,7 +9,7 @@ Ejercicios de la semana 1 - 2
 
 #import _44semana01clase03
 
-import _44semana02clase04_funciones
+'''import _44semana02clase04_funciones
 
 x = _44semana02clase04_funciones.saludo('Juan Sebastian')
 print (x)
@@ -28,4 +28,6 @@ f.mostrarMensaje()
 f.mostrarMensajePersonalizado('Luisa Maria')
 suma = f.suma2(50,80)
 print (suma)
-print (f.suma2(-1,80))
+print (f.suma2(-1,80))'''
+
+import _44semana02clase05
