@@ -30,4 +30,6 @@ suma = f.suma2(50,80)
 print (suma)
 print (f.suma2(-1,80))'''
 
-import _44semana02clase05
+'''import _44semana02clase05'''
+
+import _44semana02clase06
