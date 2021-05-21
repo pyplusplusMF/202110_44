@@ -1,4 +1,4 @@
-def evaluacionNota2 (diccionario:dict) -> dict:
+  def evaluacionNota2 (diccionario:dict) -> dict:
     n1 = float(diccionario['nota1'])
     n2 = float(diccionario['nota2'])
     n3 = float(diccionario['nota3'])
