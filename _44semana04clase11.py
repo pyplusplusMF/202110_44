@@ -106,4 +106,7 @@ def metodosConjuntos():
 metodosConjuntos()
 
 #Documentacion de python para conjuntos 
+
 #https://docs.python.org/es/3/library/stdtypes.html#set
+
+#https://www.w3schools.com/python/

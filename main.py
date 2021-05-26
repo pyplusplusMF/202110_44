@@ -45,4 +45,8 @@ print (f.suma2(-1,80))'''
 
 '''import _44semana04clase11'''
 
-import _44semana04clase11Ejercicio
+'''import _44semana04clase11Ejercicio'''
+
+'''import _44semana04clase12Ejercicio2'''
+
+import _44semana04clase12Ejercicio3
