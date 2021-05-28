@@ -75,6 +75,7 @@ def ejemplo5():
     print (listaDeCeros)
     listaDeListas = [[0 for j in range (3)] for i in range (5)]
     print (listaDeListas)
-ejemplo5()
+ejemplo5() 
+#https://docs.python.org/es/3/tutorial/datastructures.html
 
 
