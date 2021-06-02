@@ -177,3 +177,48 @@ def ejercicio4Reduce():
     resultado = reduce (lambda sumatoria = 0, elemento = 0 : sumatoria + elemento , lista)
     print ('sumatoria = ', resultado) # 175
 ejercicio4Reduce()
+
+
+def ejercicio1ReduceStrings():
+    
+    # Concatenar todos los elementos de una lista
+    lista = ['Python', 'Java', 'PHP', 'Ruby', 'Perl', 'Kotlin']
+    concatenacion = ' '.join(lista)
+    print ('concatenacion ', concatenacion)
+    # Python Java PHP Ruby Perl Kotlin 
+    
+    sumatoriaStrings = ' '
+    for elemento in lista:
+        sumatoriaStrings = sumatoriaStrings + ' ' + elemento
+    print('sumatoriaStrings = ', sumatoriaStrings)
+    # Python Java PHP Ruby Perl Kotlin
+    
+ejercicio1ReduceStrings()
+
+def ejercicio2ReduceStrings():
+    from functools import reduce
+    def concatenacion (sumatoriaStrings = ' ', elemento = ' ') -> str:
+        return sumatoriaStrings + ' ' + elemento 
+    
+    # Concatenar todos los elementos de una lista
+    lista = ['Python', 'Java', 'PHP', 'Ruby', 'Perl', 'Kotlin']
+    
+    stringConcatenado = reduce (concatenacion, lista)
+    print ('Los elementos concatenados son: ', stringConcatenado)
+    # Python Java PHP Ruby Perl Kotlin
+ejercicio2ReduceStrings()
+
+
+def ejercicio3ReduceStrings():
+    from functools import reduce
+    # def concatenacion (sumatoriaStrings = ' ', elemento = ' ') -> str:
+    #     return sumatoriaStrings + ' ' + elemento     
+    
+    # Concatenar todos los elementos de una lista
+    lista = ['Python', 'Java', 'PHP', 'Ruby', 'Perl', 'Kotlin']
+    stringConcatenado = reduce ( 
+                                lambda  sumatoriaStrings = ' ', elemento = ' ' :  sumatoriaStrings + ' ' + elemento, 
+                                lista )
+    print ('Los elementos concatenados son: ', stringConcatenado)
+    # Python Java PHP Ruby Perl Kotlin
+ejercicio3ReduceStrings()
