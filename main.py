@@ -53,4 +53,7 @@ print (f.suma2(-1,80))'''
 
 # import _44semana04clase13
 
-import _44semana04clase14
+# import _44semana04clase14
+
+import _44semana05clase15MapFilterReduce
+
