@@ -57,4 +57,8 @@ print (f.suma2(-1,80))'''
 
 # import _44semana05clase15MapFilterReduce
 
-import _44semana05Numpy
+# import _44semana05clase15Numpy
+
+# import _44OrdenamientoDeBurbuja
+
+import _44semana05clase16Numpy
