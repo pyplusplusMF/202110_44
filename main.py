@@ -66,4 +66,8 @@ print (f.suma2(-1,80))'''
 
 # import _44semana06clase17Pandas
 
-import _44semana06clase17EjercicioPandas
+# import _44semana06clase17EjercicioPandas
+
+import _44semana06clase18archivos
+
+# import _44semana06clase18EjemploReto5
