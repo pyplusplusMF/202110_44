@@ -61,4 +61,7 @@ print (f.suma2(-1,80))'''
 
 # import _44OrdenamientoDeBurbuja
 
-import _44semana05clase16Numpy
+# import _44semana05clase16Numpy
+
+
+import _44semana06clase17Pandas
