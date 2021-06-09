@@ -36,3 +36,8 @@ def funcionEjemplo (nombreArchivo:str) -> dict:
 print (funcionEjemplo ('titanic3.csv'))
 
 # {'nombres': ['Allen, Miss. Elisabeth Walton', 'Allison, Master. Hudson Trevor', 'Allison, Miss. Helen Loraine', 'Allison, Mr. Hudson Joshua Creighton', 'Allison, Mrs. Hudson J C (Bessie Waldo Daniels)', 'Anderson, Mr. Harry', 'Andrews, Miss. Kornelia Theodosia', 'Andrews, Mr. Thomas Jr', 'Appleton, Mrs. Edward Dale (Charlotte Lamson)', 'Artagaveytia, Mr. Ramon'], 'edadMayor': 80.0, 'edadMenor': 0.1667, 'tarifaPromedio': 33.3}
+
+
+# Trabajo autonomo
+# descargar el material 
+# https://github.com/luismescobarf/clasesCiclo1/tree/master/AppCRUD_CapaDatos
