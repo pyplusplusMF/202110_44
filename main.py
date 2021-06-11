@@ -73,4 +73,8 @@ print (f.suma2(-1,80))'''
 # import _44semana06clase18EjemploReto5
 
 
-import _44semana06clase18Matplotlib
+# import _44semana06clase18Matplotlib
+
+# import _44semana06clase19pooEjemplo1
+
+import _44semana06clase19pooEjemplo2

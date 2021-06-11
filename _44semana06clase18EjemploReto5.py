@@ -1,6 +1,7 @@
 # Clase del martes 8 de junio
 # Ejemplo del Reto 5
 # Lectura del archivo titanic3.csv y cargado en un DataFrame
+# Ejercicio de ayuda _44semana06clase17EjercicioPandas.py
 
 def funcionEjemplo (nombreArchivo:str) -> dict:
     import pandas as pd
